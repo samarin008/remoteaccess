@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -66,4 +69,68 @@ body {
 #work-card {
     display:block;
     margin-top:100px;
+}
+.image-card {
+    border-style:solid;
+    border-width:10px;
+    border-color:white;
+}
+.credit-link {
+    text-decoration: none;
+    color:white;
+}
+.credit-link:hover {
+    background-color: white;
+    color:black;
+    padding: 10px 10px 10px 10px;
+}
+#work-card p {
+    color:white;
+    font-size: 15px !important;
+    z-index:11;
+    position:relative;
+    bottom:50px;
+}
+.shrek-link-card {
+    opacity:1;
+}
+.shrek-link-card:hover {
+    opacity:0.3;
+}
+.text {
+    position: absolute;
+    z-index:100 !important;
+}
+#about-card {
+    background:url("contact-bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:98%;
+    height:700px;
+    position:relative;
+    left:10px;
+    bottom:100px;
+    border-radius:20px;
+}
+#about-card p {
+    padding: 20px 20px 20px 20px;
+    font-size:18px;
+}
+.email-card {
+    text-decoration:none;
+    color:white;
+}
+.email-card:hover {
+    background-color: white;
+    color:black;
+    padding:10px 10px 10px 10px;
+    font-weight: bold;
+}
+.contact-links-card {
+    margin-left:25px;
+}
+#about-card h2 {
+    font-size:50px;
 }
