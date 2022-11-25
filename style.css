@@ -1,18 +1,63 @@
 body {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    background: url("backgroundblur.jpg") no-repeat center center fixed; 
+    background-image:linear-gradient(to right, #51b9ff, #622fe2); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color:white;
 }
+.dotted-list ul {
+    list-style: none;
+}
+.dotted-list {
+    position:fixed;
+    right:0;
+    top:0;
+    margin-right:20px !important;
+    z-index:10 !important;
+}
+.dotted-list a {
+    text-decoration: none;
+    color:white;
+}
+.dotted-list li {
+    margin-top:20px;
+}
+.dotted-list a:hover {
+    background-color: black;
+    padding: 0px 3px 3px 3px;
+}
 .main-central {
     background: url("main-place.jpg");
     height:500px;
     border-radius:20px;
+    box-shadow:10px 10px 5px #352b4e;
+    width:95%;
+    position:relative;
+    left:15px;
+    z-index:0 !important;
 }
 .main-central h1 {
-    vertical-align: center;
+    position:relative;
+    top:180px;
+    margin: 0px 10px 20px 10px;
+
 }
+.btn-learn {
+    position:relative;
+    top:210px;
+    text-decoration: none;
+    border-color:white !important;
+    border-width:5px !important;
+    border-style:solid;
+    color:white;
+    padding:10px 10px 10px 10px;
+}
+.btn-learn:hover {
+    background-color:black;
+    text-decoration:underline;
+    
+}
+
