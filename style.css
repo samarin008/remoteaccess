@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: url("backgroundblur.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+.main-central {
+    background: url("main-place.jpg");
+    height:500px;
+    border-radius:20px;
+}
+.main-central h1 {
+    vertical-align: center;
+}
